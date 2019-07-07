@@ -25,6 +25,9 @@ a {
 
 /*=======Navigation styles========*/
 
+h1{
+  font-size: 2em;
+}
 .main-nav{
   width: 100%;
   padding-left: 1em;
