@@ -14,8 +14,8 @@ body{
   text-align: center;
 
   width: 100%;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .main-nav ul{
@@ -26,8 +26,9 @@ body{
 
 .main-nav ul li {
   padding: 1em ;
-  margin: .5em;
+  margin-top: .5em;
   background-color: white;
+  font-size: 1em;
 }
 
 .main-nav ul li a {
@@ -41,13 +42,12 @@ body{
 
 /*=======Header styles========*/
 header{
-  margin-top: 2em;
+  padding: 2em 1em;
   text-align: center;
-  padding: .5em;
 }
 
 header img {
-  width: 65%;
+  width: 70%;
 }
 
 header p {
@@ -55,7 +55,31 @@ header p {
   letter-spacing: -1px;
 }
 
+/*=======Main styles========*/
+main{
+  background-color: white;
+  padding: 2em 1em;
+  text-align: center;
+}
 
+main h2{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2.5em;
+}
+
+article img{
+  width: 100%;
+}
+
+article div {
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 1.5em;
+  letter-spacing: -1px;
+  margin-bottom: 2em;
+}
 
 
 
