@@ -4,7 +4,7 @@
 
 body{
   margin: 0px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', Arial; sans-serif;
   background-color: #f5f6fa;
   text-align: center;
 }
@@ -85,7 +85,6 @@ article div {
 footer {
   padding:0 1em;
   line-height: 1.5em;
-s
 }
 
 footer h2{
