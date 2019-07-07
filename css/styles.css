@@ -8,14 +8,14 @@ body{
   background-color: #f5f6fa;
 }
 
-
+/*=======Navigation styles========*/
 
 .main-nav{
   text-align: center;
 
   width: 100%;
-  padding-left: .75em;
-  padding-right: .75em;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 
 .main-nav ul{
@@ -39,7 +39,21 @@ body{
   color: black;
 }
 
+/*=======Header styles========*/
+header{
+  margin-top: 2em;
+  text-align: center;
+  padding: .5em;
+}
 
+header img {
+  width: 65%;
+}
+
+header p {
+  line-height: 1.5em;
+  letter-spacing: -1px;
+}
 
 
 
