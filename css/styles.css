@@ -114,7 +114,15 @@ footer div h4,
 footer div a {
   margin-top: 1em;
   margin-bottom: 1.5em;
-  vertical-align: center;
+  vertical-align: top;
+}
+
+footer div p {
+  line-height: 1.5em;
+}
+
+.footer-nav {
+  display: none;
 }
 
 .clearfix::after{
@@ -159,5 +167,42 @@ footer div a {
     margin: 0;
     text-align: left;
     font-size: 1.25em;
+  }
+
+  article {
+    width: 45%;
+    float: left;
+    margin: .5em;
+    font-size: 1.25em;
+  }
+
+  article div {
+    padding-left: .25em;
+    padding-right: .25em;
+  }
+
+  footer div p{
+    font-size: 1.5em;
+    margin: auto;
+    width: 75%;
+  }
+
+  .footer-link {
+    display: none;
+  }
+
+  .footer-nav{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+  }
+
+  .footer-nav li{
+    float: left;
+    padding: 0 1em ;
+    line-height: 1.5em;
+
   }
 }
