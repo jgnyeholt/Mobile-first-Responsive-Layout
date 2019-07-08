@@ -130,7 +130,34 @@ footer div a {
   .main-nav ul {
     display: inline-block;
   }
+
   .main-nav ul li {
     float: left;
+    background-color: inherit;
+  }
+
+  header p,
+  header img
+  {
+    vertical-align: top;
+  }
+
+  header{
+    padding: 2em 2em;
+    padding-bottom: 3em;
+  }
+
+  header img {
+    width: 40%;
+    float: right;
+
+  }
+
+  header p {
+    float: left;
+    width: 55%;
+    margin: 0;
+    text-align: left;
+    font-size: 1.25em;
   }
 }
