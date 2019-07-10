@@ -102,9 +102,9 @@ article div p {
 }
 
 .skills div{
-  width: auto;
+
   text-align: center;
-  line-height: 1.25em;
+  line-height: 1.5em;
   margin:auto;
 }
 
@@ -115,12 +115,15 @@ article div p {
 .skills div ul{
   list-style: none;
   padding: 0;
-  padding-bottom: 2em;
 }
 
 .skills div ul li{
   display: block;
   width: 100%;
+}
+
+.skills-rule{
+  margin: 2em 0;
 }
 
 /*=======Footer styles========*/
@@ -134,7 +137,7 @@ footer h2{
   margin-bottom: 2em;
 }
 
-hr{
+.footer-rule{
   margin-top: 3em;
 }
 
@@ -232,6 +235,10 @@ footer div p {
     height: 90px;
   }
 
+  .skills-rule{
+    display: none;
+  }
+
   footer div p{
     font-size: 1.5em;
     margin: auto;
@@ -299,6 +306,10 @@ footer div p {
     padding-left: 3em;
     padding-right: 3em;
     text-align: center;
+  }
+
+  .skills{
+    padding-bottom: 3em;
   }
 
   article {
