@@ -27,9 +27,6 @@ a {
     color: black;
 }
 
-
-
-
 .title{
   font-family: 'Domine', serif;
 }
@@ -95,6 +92,10 @@ article div {
   margin-bottom: 2em;
 }
 
+article div p {
+  word-break: normal;
+}
+
 .skills{
   background-color: #7f8fa6;
   color: white;
@@ -136,8 +137,6 @@ footer h2{
 hr{
   margin-top: 3em;
 }
-
-
 
 footer div h4 {
   float: left;
@@ -218,8 +217,7 @@ footer div p {
   }
 
   article {
-    width: calc(100%/2 - 10px);
-    max-width: 50%;
+    width: calc(100%/2);
     float: left;
     padding: .5em;
     font-size: 1.25em;
@@ -228,6 +226,10 @@ footer div p {
   article div {
     padding-left: .25em;
     padding-right: .25em;
+  }
+
+  article div p{
+    height: 90px;
   }
 
   footer div p{
