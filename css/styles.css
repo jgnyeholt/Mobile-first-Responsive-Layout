@@ -1,10 +1,14 @@
+html{
+  font-size: 16px;
+}
+
 *{
   box-sizing: border-box;
 }
 
 body{
   margin: 0px;
-  font-family: 'Roboto Condensed', Arial; sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   background-color: #f5f6fa;
   text-align: center;
 }
@@ -21,6 +25,13 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: black;
+}
+
+
+
+
+.title{
+  font-family: 'Domine', serif;
 }
 
 /*=======Navigation styles========*/
@@ -66,9 +77,13 @@ header p {
 }
 
 /*=======Main styles========*/
-main{
-  background-color: white;
+.portfolio,
+.skills{
   padding: 2em 1em;
+}
+
+.portfolio{
+  background-color: white;
 }
 
 article img{
@@ -76,10 +91,35 @@ article img{
 }
 
 article div {
-  padding-left: 1em;
-  padding-right: 1em;
   line-height: 1.5em;
   margin-bottom: 2em;
+}
+
+.skills{
+  background-color: #7f8fa6;
+  color: white;
+}
+
+.skills div{
+  width: auto;
+  text-align: center;
+  line-height: 1.25em;
+  margin:auto;
+}
+
+.skills div h3{
+  margin-bottom: 0;
+}
+
+.skills div ul{
+  list-style: none;
+  padding: 0;
+  padding-bottom: 2em;
+}
+
+.skills div ul li{
+  display: block;
+  width: 100%;
 }
 
 /*=======Footer styles========*/
@@ -135,6 +175,14 @@ footer div p {
 /*=======Media Queries========*/
 
 @media (min-width: 768px){
+  a:hover {
+    border-bottom: 2px solid black;
+  }
+
+  nav {
+      height: 160px;
+  }
+
   .main-nav ul {
     display: inline-block;
   }
@@ -170,9 +218,10 @@ footer div p {
   }
 
   article {
-    width: 45%;
+    width: calc(100%/2 - 10px);
+    max-width: 50%;
     float: left;
-    margin: .5em;
+    padding: .5em;
     font-size: 1.25em;
   }
 
@@ -203,6 +252,64 @@ footer div p {
     float: left;
     padding: 0 1em ;
     line-height: 1.5em;
-
   }
+
+  .skills div{
+    width: 50%;
+    float:left;
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+}
+
+@media (min-width: 1024px){
+  nav {
+      height: 110px;
+  }
+
+  .main-nav {
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .main-nav h1{
+    float: left;
+  }
+
+  .main-nav ul {
+    float: right;
+  }
+
+  header{
+    padding: 1em 3em 3em 3em;
+  }
+
+
+  header p {
+    font-size: 1.5em;
+  }
+
+  h2{
+    font-size: 1.25em;
+  }
+
+  .portfolio {
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;
+  }
+
+  article {
+    width: calc(100%/3);
+    font-size: 115%;
+  }
+
+  footer div p {
+    width: 60%;
+  }
+
+  footer div div {
+    padding-top: 3em;
+  }
+
 }
